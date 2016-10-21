@@ -7,7 +7,7 @@ public class Main {
 		String str1;
 		PasswordEncorder pass1 = new PasswordEncorder();
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("請輸入英文句子:");
+		System.out.println("Pleace input the sentence:");
 		str1 = scanner.next();
 		pass1.transform(str1);
 
