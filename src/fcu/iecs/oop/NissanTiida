@@ -1,0 +1,20 @@
+package fcu.iecs.oop.tiida;
+
+public class NissanTiida {
+	int count;
+	
+	public NissanTiida(){
+		count = 1;
+	}
+	
+	public void tiida(){
+		int i, j;
+		for(i = 0; i < count; i++){
+			for(j = 0; j < count; j++){
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		count++;
+	}
+}
